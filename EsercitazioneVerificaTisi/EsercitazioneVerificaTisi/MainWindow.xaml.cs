@@ -20,9 +20,29 @@ namespace EsercitazioneVerificaTisi
     /// </summary>
     public partial class MainWindow : Window
     {
+        ElencoMaratone Elenco;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            Elenco = new ElencoMaratone();
+            DgDati.ItemsSource = Elenco.InsiemeMaratone;
+        }
+
+        private void BtnLeggi_Click(object sender, RoutedEventArgs e)
+        {
+            Elenco.LeggiDaFile();
+
+            DgDati.Items.Refresh();
+        }
+
+        private void BtnCerca_Click(object sender, RoutedEventArgs e)
+        {
+            CercaNomeCittà();
+
+            string Atleta = TxtAtleta;
+            string Città = TxtCittà;
         }
     }
 }

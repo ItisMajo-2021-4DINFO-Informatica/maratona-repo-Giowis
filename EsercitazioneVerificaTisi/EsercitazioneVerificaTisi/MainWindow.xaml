@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EsercitazioneVerificaTisi"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Tisi LeggiFile" Height="450" Width="800">
+    <StackPanel>
+        <Button x:Name="BtnLeggi" Margin="10" Height="25px" Content="Leggi File" Click="BtnLeggi_Click" FontSize="16"></Button>
+        <DataGrid x:Name="DgDati" Margin="10" Height="200px"></DataGrid>
+        <TextBlock Margin="10 0 500 0" Height="30px" Text="Cerca Atleta e Provenienza:" FontSize="18"></TextBlock>
+        <TextBox x:Name="TxtAtleta" Margin="10 -2 600 0" Height="40px"></TextBox>
+        <TextBox x:Name="TxtCittà" Margin="225 -40 325 0" Height="40px" ></TextBox>
+        <Button x:Name="BtnCerca" Margin="500 -40 10 0" Height="30px" Content="Cerca" FontSize="16" Click="BtnCerca_Click"></Button>
+        <TextBox x:Name="TxtRisultato" Margin="10" Height="40px"></TextBox>
+    </StackPanel>
 </Window>

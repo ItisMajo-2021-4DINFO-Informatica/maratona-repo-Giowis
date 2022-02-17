@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utente\\Documents\\GitHub\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi.csproj",
+      "projectUniqueName": "C:\\Users\\Utente\\Desktop\\GitHub\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi.csproj",
       "projectName": "EsercitazioneVerificaTisi",
-      "projectPath": "C:\\Users\\Utente\\Documents\\GitHub\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi.csproj",
+      "projectPath": "C:\\Users\\Utente\\Desktop\\GitHub\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi.csproj",
       "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utente\\Documents\\GitHub\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi\\obj\\",
+      "outputPath": "C:\\Users\\Utente\\Desktop\\GitHub\\EsercitazioneVerificaTisi\\EsercitazioneVerificaTisi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
